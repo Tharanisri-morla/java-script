@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #c4e9ea;
+}
+
+
+#container {
+    /* border: 3px solid #1f1f29; */
+   
+    background-color: #da9f52;
+    margin: 150px auto;
+    padding: 20px;
+    width: 300px;
+    border-radius: 15px;
+    
+}
+
+h1 {
+    color: #e7efeb;
+    text-align: center;
+}
+
+#username,
+#password {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #1b0707;
+    border-radius: 5px;
+}
+
+#login-btn {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #1c1616;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
