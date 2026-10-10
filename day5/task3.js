@@ -1,12 +1,20 @@
+let message = document.getElementById("message")
+
+
 const validateForm = (event) => {
     event.preventDefault()
     let username = event.target.username.value
     let password = event.target.password.value
     if(username === "" && password === "") {
-        console.log("Username and password are required")
+        message.innerHTML = "enter Username and password"
+        
     } else if(username === "") {
-        console.log("Username is required")
+        message.innerHTML = "Username is required"
+       
     } else if(password === "") {
-        console.log("Password is required")
+        message.innerHTML = "Password is required"
+      
+    } else {
+        message.innerHTML = ""
     }
 }
